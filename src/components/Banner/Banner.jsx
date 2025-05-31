@@ -10,6 +10,7 @@ const Banner = ({title}) => {
                     <Row>
                         <Col>
                             <h2>{title}</h2>
+                            {/* this is test. */}
                         </Col>
                     </Row>
                 </Container>
