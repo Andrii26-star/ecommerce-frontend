@@ -14,7 +14,7 @@ const SliderHome = () => {
     autoplay: true,
   }
   return (
-      <section className='homeSlide'>
+      <section className='homeSlide' style={{ color : 'indianred' }}>
         <Container>
           <Slider {...settings}>
           {SliderData.map((value, index) => {
